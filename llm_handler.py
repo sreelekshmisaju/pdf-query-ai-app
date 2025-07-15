@@ -29,4 +29,3 @@ def query_pdf_with_llm(extracted_text, question):
 
     result = qa_pipeline(question=question, context=best_context)
     return result["answer"]
-

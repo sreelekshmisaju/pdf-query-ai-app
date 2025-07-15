@@ -1,0 +1,7 @@
+streamlit
+PyMuPDF
+transformers
+scikit-learn
+torch
+python-dotenv
+sentence-transformers
