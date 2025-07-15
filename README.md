@@ -146,6 +146,9 @@ A: Ministry of Rural Development.
 
 ## 🧪 Example Usage
 
+## 🔗 Live Demo Link : https://pdf-query-ai-app-gappuf6u4gxrkrmgmqjuay.streamlit.app/
+
+
 **Step-by-step**:
 
 1. Upload a report or thesis PDF
