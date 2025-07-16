@@ -146,7 +146,7 @@ A: Ministry of Rural Development.
 
 ## 🧪 Example Usage
 
-## 🔗 Live Demo Link : https://pdf-query-ai-app-gappuf6u4gxrkrmgmqjuay.streamlit.app/
+## 🔗 Live Deployment Link : https://pdf-query-ai-app-gappuf6u4gxrkrmgmqjuay.streamlit.app/
 
 
 **Step-by-step**:
