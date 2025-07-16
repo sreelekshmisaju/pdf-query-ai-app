@@ -57,7 +57,7 @@ if uploaded_file:
         if "qa_history" not in st.session_state:
             st.session_state.qa_history = []
 
-        user_query = st.text_input("💬 Your question:")
+        user_query = st.text_input(" Your question:")
 
         if user_query:
             with st.spinner(" Generating answer..."):
