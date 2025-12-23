@@ -1,10 +1,10 @@
-# 📄 AI PDF Content Query App
+#  AI PDF Content Query App
 
 A robust, offline-capable application for extracting and querying content from PDF documents using AI. Built with Streamlit and Hugging Face Transformers (DistilBERT), this tool allows users to upload academic or technical PDFs and ask contextual questions in natural language. No OpenAI or external API key required.
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Extract structured text from academic or scanned PDFs.
 - Enable users to ask multiple questions about the content.
@@ -14,7 +14,7 @@ A robust, offline-capable application for extracting and querying content from P
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 This app uses:
 - `PyMuPDF (fitz)` to extract per-page text from PDFs.
@@ -26,20 +26,20 @@ The input PDF is processed on upload, and extracted text is passed to the QA mod
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- 🤖 Powered by Hugging Face QA model (DistilBERT)
-- 📄 Upload any academic PDF (persistent)
-- 💬 Ask multiple questions with real-time answers
-- 📜 View complete session Q&A history
-- ⬇️ Download last answer as `.txt`
-- 🎨 Custom theme + dark/light toggle
-- 📱 Responsive UI using Streamlit
-- 🧾 Logs stored locally for audit/debug
+-  Powered by Hugging Face QA model (DistilBERT)
+-  Upload any academic PDF (persistent)
+-  Ask multiple questions with real-time answers
+-  View complete session Q&A history
+-  Download last answer as `.txt`
+-  Custom theme + dark/light toggle
+-  Responsive UI using Streamlit
+-  Logs stored locally for audit/debug
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 
 ```
 
@@ -59,7 +59,7 @@ pdf-query-ai-app/
 
 ---
 
-## 🧰 Dependencies
+##  Dependencies
 
 Install using:
 
@@ -77,7 +77,7 @@ Required libraries:
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the App
+##  Running the App
 
 ```bash
 streamlit run app.py
@@ -114,7 +114,7 @@ Open the provided local URL in your browser (e.g. [http://localhost:8501](http:/
 
 ---
 
-## 📦 Deployment (Streamlit Cloud)
+##  Deployment (Streamlit Cloud)
 
 1. Push the project to your GitHub repository.
 2. Visit [Streamlit Cloud](https://streamlit.io/cloud).
@@ -124,7 +124,7 @@ Open the provided local URL in your browser (e.g. [http://localhost:8501](http:/
 
 ---
 
-## 📜 LLM Interaction Logging
+##  LLM Interaction Logging
 
 All user questions and generated answers are saved in:
 
@@ -144,9 +144,9 @@ A: Ministry of Rural Development.
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
-## 🔗 Live Deployment Link : https://pdf-query-ai-app-gappuf6u4gxrkrmgmqjuay.streamlit.app/
+##  Live Deployment Link : https://pdf-query-ai-app-gappuf6u4gxrkrmgmqjuay.streamlit.app/
 
 ## Demo Video : 
 
@@ -163,7 +163,7 @@ A: Ministry of Rural Development.
 
 ---
 
-## 💡 Troubleshooting
+##  Troubleshooting
 
 | Issue                                | Solution                                                |
 | ------------------------------------ | ------------------------------------------------------- |
@@ -174,7 +174,7 @@ A: Ministry of Rural Development.
 
 ---
 
-## 🎨 Theme Customization
+##  Theme Customization
 
 Edit `.streamlit/config.toml`:
 
@@ -190,23 +190,23 @@ Or toggle Dark Mode within the sidebar.
 
 ---
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 
-* 🔎 Semantic search with vector embeddings
-* 🧠 Upgrade to multilingual QA models
-* 🧾 Export full Q\&A sessions to PDF
-* 🗃️ Multi-document Q\&A with ranking
-* 🌐 Option to run model via API if needed
+*  Semantic search with vector embeddings
+*  Upgrade to multilingual QA models
+*  Export full Q\&A sessions to PDF
+*  Multi-document Q\&A with ranking
+*  Option to run model via API if needed
 
 ---
 
-## 🛡 License
+##  License
 
 Licensed under the **MIT License**.
 
 ---
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 * [Streamlit](https://streamlit.io/)
 * [Hugging Face Transformers](https://huggingface.co/transformers/)
